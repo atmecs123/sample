@@ -50,6 +50,14 @@
           <goal>java</goal>
          </goals>
          <configuration>
+		 <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>code.main.App</mainClass>
+          </manifest>
+        </archive>
+
           <mainClass>code.main.App</mainClass>
           <arguments>
            <argument>myArg1</argument>
